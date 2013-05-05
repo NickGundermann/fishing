@@ -5,6 +5,9 @@ import java.sql.Time;
 
 public class Fang {
 	
+	/**
+	 * Vereinigung aller anderen definiton-classes zum eigentlichen Datenbankobjekt
+	 */
 	private Fischart fischart;
 	private Groesse groesse;
 	private Gewaesser gewaesser;
