@@ -18,20 +18,6 @@ public class Main extends Application{
 
 	HashMap<String, Node> elements = new HashMap<String, Node>();
 
-	@Override
-	public void start(Stage primeStage) throws Exception {
-		Group group = new Group();
-		Scene scene = new Scene(group, 500, 800);
-		
-		BorderPane mainPane = initMainPane();
-		group.getChildren().add(mainPane);
-		
-		primeStage.setScene(scene);
-		primeStage.show();
-	}
-
-	
-	
 	private BorderPane initMainPane() {
 		BorderPane pane = new BorderPane();
 		
@@ -53,6 +39,20 @@ public class Main extends Application{
 		grid.add(elements.get("Liste"), 0, 0);
 		grid.add(elements.get("Hinzufügen"), 0, 1);
 		return grid;
+	}
+
+
+
+	@Override
+	public void start(Stage primeStage) throws Exception {
+		Group group = new Group();
+		Scene scene = new Scene(group, 500, 800);
+		
+		BorderPane mainPane = initMainPane();
+		group.getChildren().add(mainPane);
+		
+		primeStage.setScene(scene);
+		primeStage.show();
 	}
 
 
