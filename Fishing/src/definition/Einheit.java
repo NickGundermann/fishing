@@ -1,7 +1,7 @@
 package definition;
 
 public enum Einheit {
-	cm, ha, koeder;
+	cm, ha, koeder, g;
 	
 	
 

@@ -3,8 +3,8 @@ package definition;
 public class Koeder {
 
 	
-private	String bezeichnung;
-private	Firma firma;
+private	 String bezeichnung;
+private	 Firma firma;
 private Art art;
 
 public String getBezeichnung() {

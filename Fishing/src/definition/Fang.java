@@ -11,7 +11,7 @@ public class Fang {
 	private Fischart fischart;
 	private Groesse groesse;
 	private Gewaesser gewaesser;
-	private	Koeder koeder;
+	private	 Koeder koeder;
 	private Date date;
 	private Time time;
 	

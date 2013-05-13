@@ -4,7 +4,7 @@ public class Groesse {
 	
 	
 	private Einheit einheit;
-	private double betarg;
+	private double betrag;
 	
 	public Einheit getEinheit() {
 		return einheit;
@@ -13,10 +13,10 @@ public class Groesse {
 		this.einheit = einheit;
 	}
 	public double getBetarg() {
-		return betarg;
+		return betrag;
 	}
 	public void setBetarg(double betarg) {
-		this.betarg = betarg;
+		this.betrag = betarg;
 	}
 
 	

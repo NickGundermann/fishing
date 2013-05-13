@@ -3,9 +3,9 @@ package definition;
 public class Gewaesser {
 	
 	
-	private	String  bezeichnung;
-	private	Groesse groesse;
-	private	Lage lage;
+	private String  bezeichnung;
+	private	 Groesse groesse;
+	private	 Lage lage;
 	
 	public String getBezeichnung() {
 		return bezeichnung;
