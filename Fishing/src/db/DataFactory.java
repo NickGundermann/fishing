@@ -15,7 +15,7 @@ public class DataFactory {
 			configuration.configure();
 			serviceRegistry = new ServiceRegistryBuilder().applySettings(
 					configuration.getProperties()).buildServiceRegistry();
-			sessionFactory = configuration.buildSessionFactory(serviceRegistry);
+			sessionFactory = configuration.buildSessionFactory();
 		} catch (Throwable ex) {
 			System.err.println("Failed to create sessionFactory object." + ex);
 			throw new ExceptionInInitializerError(ex);

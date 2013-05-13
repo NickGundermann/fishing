@@ -12,8 +12,8 @@ public class DTOArt {
 	
 	@Id
 	@GeneratedValue
-	@Column (name="id")
-	private int id;
+	@Column (name="bezeichnung")
+	private String bezeichnung;
 	
 	@Column (name="groesse(cm)")
 	private double groesse;
@@ -21,12 +21,12 @@ public class DTOArt {
 	@Column (name="gewicht(g)")
 	private double gewicht;
 
-	public int getId() {
-		return id;
+	public String getBezeichnung() {
+		return bezeichnung;
 	}
 
-	public void setId(int id) {
-		this.id = id;
+	public void setBezeichnung(String id) {
+		this.bezeichnung = id;
 	}
 
 	public double getGroesse() {

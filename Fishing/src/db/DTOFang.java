@@ -16,13 +16,13 @@ public class DTOFang {
 	private int id;
 	
 	@Column (name = "art")
-	private int fischartId;
+	private String fischartId;
 	
 	@Column (name = "groesse(cm)")
 	private double groesse;
 	
 	@Column ( name = "koeder")
-	private int koederId;
+	private String koeder;
 	
 	@Column ( name = "date")
 	private String date;
@@ -38,11 +38,11 @@ public class DTOFang {
 		this.id = id;
 	}
 
-	public int getArt() {
+	public String getArt() {
 		return fischartId;
 	}
 
-	public void setArt(int art) {
+	public void setArt(String art) {
 		this.fischartId = art;
 	}
 
@@ -54,12 +54,12 @@ public class DTOFang {
 		this.groesse = groesse;
 	}
 
-	public int getKoeder() {
-		return koederId;
+	public String getKoeder() {
+		return koeder;
 	}
 
-	public void setKoeder(int koeder) {
-		this.koederId = koeder;
+	public void setKoeder(String koeder) {
+		this.koeder = koeder;
 	}
 
 	public String getDate() {

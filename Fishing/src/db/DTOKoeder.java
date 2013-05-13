@@ -11,10 +11,6 @@ import javax.persistence.Table;
 public class DTOKoeder {
 
 	@Id
-	@GeneratedValue
-	@Column (name="id")
-	private int id;
-	
 	@Column (name="bezeichnung")
 	private int bezeichnung;
 	
@@ -23,14 +19,6 @@ public class DTOKoeder {
 	
 	@Column (name="art")
 	private int artId;
-
-	public int getId() {
-		return id;
-	}
-
-	public void setId(int id) {
-		this.id = id;
-	}
 
 	public int getBezeichnung() {
 		return bezeichnung;
