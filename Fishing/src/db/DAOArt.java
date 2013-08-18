@@ -28,8 +28,6 @@ public class DAOArt {
                         System.out.println("Inserting Record");
                         Transaction tx = session.beginTransaction();
                         artEntry.setBezeichnung(art.getBezeichnung());
-                        artEntry.setGewicht(art.getGewicht().getBetrag());
-                        artEntry.setGroesse(art.getGroesse().getBetarg());
                         session.save(artEntry);
                         tx.commit();
                         System.out.println("Done");

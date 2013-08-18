@@ -6,6 +6,8 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+import org.hibernate.annotations.ForeignKey;
+
 @Entity
 @Table (name = "fang")
 public class DTOFang {
@@ -15,13 +17,15 @@ public class DTOFang {
 	@Column (name = "id")
 	private int id;
 	
-	@Column (name = "art")
+	@Column (name = "fischart")
+	@ForeignKey(name = "fischart") 
 	private String fischartId;
 	
 	@Column (name = "groesse(cm)")
 	private double groesse;
 	
 	@Column ( name = "koeder")
+	@ForeignKey(name = "koeder") 
 	private String koeder;
 	
 	@Column ( name = "date")

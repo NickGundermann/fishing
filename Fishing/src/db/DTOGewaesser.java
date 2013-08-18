@@ -1,4 +1,4 @@
-package db;
+	package db;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -12,14 +12,14 @@ public class DTOGewaesser {
 
 	@Id
 	@GeneratedValue
-	@Column (name="id")
+	@Column (name="gewaesserid")
 	private int id;
 	
 	@Column (name="bezeichnung")
 	private String bezeichnung;
 	
 	@Column (name="groesse(ha)")
-	private Double groesse;
+	private double groesse;
 	
 	@Column (name="lage")
 	private String lage;
@@ -40,11 +40,11 @@ public class DTOGewaesser {
 		this.bezeichnung = bezeichnung;
 	}
 
-	public Double getGroesse() {
+	public double getGroesse() {
 		return groesse;
 	}
 
-	public void setGroesse(Double groesse) {
+	public void setGroesse(double groesse) {
 		this.groesse = groesse;
 	}
 

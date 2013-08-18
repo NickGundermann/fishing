@@ -12,7 +12,7 @@ public class DTOFirma {
 	
 	@Id
 	@GeneratedValue
-	@Column (name="id")
+	@Column (name="firmenid")
 	private int id;
 	
 	@Column (name="name")
