@@ -13,6 +13,7 @@ public class DAOFang {
 
 	private static SessionFactory sessionFactory = null;
       
+	@SuppressWarnings("unchecked")
 	public static List<DTOFang> getAllFaenge(){
 		Session session = null;
       	sessionFactory = DataFactory.getSessionFactory();
