@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="317.0" xmlns:fx="http://javafx.com/fxml" fx:controller="gui.GewaesserGUIController">
+  <children>
+    <TableView fx:id="table" layoutX="121.0" layoutY="114.0" prefHeight="172.0" prefWidth="75.0">
+      <columns>
+        <TableColumn prefWidth="75.0" text="Gewässer" />
+      </columns>
+    </TableView>
+    <Label alignment="CENTER" prefHeight="30.0" prefWidth="317.0" text="Gewässer">
+      <font>
+        <Font name="System Bold" size="30.0" />
+      </font>
+    </Label>
+    <Button layoutX="170.0" layoutY="321.0" mnemonicParsing="false" onAction="#add" prefHeight="30.0" prefWidth="85.0" text="Hinzufügen" />
+    <Button layoutX="63.0" layoutY="321.0" mnemonicParsing="false" onAction="#zurueck" prefHeight="30.0" prefWidth="85.0" text="zurück" />
+  </children>
+</AnchorPane>

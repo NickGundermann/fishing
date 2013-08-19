@@ -13,15 +13,15 @@ public class DTOKoeder {
 
 	@Id
 	@Column (name="bezeichnung")
-	private int bezeichnung;
+	private String bezeichnung;
 	
 	@Column (name="firma")
 	@ForeignKey(name = "firmen")
-	private int firmenId;
+	private String firmenId;
 	
 	@Column (name="fischart")
 	@ForeignKey(name = "fischart") 
-	private int artId;
+	private String artId;
 	
 	@Column (name="groesse(cm)")
 	private double groesse;
@@ -46,28 +46,28 @@ public class DTOKoeder {
 		this.gewicht = gewicht;
 	}
 
-	public int getBezeichnung() {
+	public String getBezeichnung() {
 		return bezeichnung;
 	}
 
-	public void setBezeichnung(int bezeichnung) {
+	public void setBezeichnung(String bezeichnung) {
 		this.bezeichnung = bezeichnung;
 	}
 
-	public int getFirmenId() {
+	public String getFirmenId() {
 		return firmenId;
 	}
 
-	public void setFirmenId(int firmenId) {
+	public void setFirmenId(String firmenId) {
 		this.firmenId = firmenId;
 	}
 
-	public int getArtId() {
+	public String getArtId() {
 		return artId;
 	}
 
-	public void setArtId(int artId) {
-		this.artId = artId;
+	public void setArtId(String string) {
+		this.artId = string;
 	}
 	
 	

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="324.0" prefWidth="498.0" xmlns:fx="http://javafx.com/fxml">
+  <children>
+    <TableView fx:id="Table" layoutX="212.0" layoutY="73.0" prefHeight="178.0" prefWidth="74.0">
+      <columns>
+        <TableColumn prefWidth="75.0" text="Firma" />
+      </columns>
+    </TableView>
+    <Button layoutX="267.0" layoutY="265.0" mnemonicParsing="false" onAction="#add" prefHeight="32.0" prefWidth="82.0" text="Hinzufügen" />
+    <Button layoutX="154.0" layoutY="265.0" mnemonicParsing="false" onAction="#zurueck" prefHeight="32.0" prefWidth="82.0" text="zurück" />
+    <Label alignment="CENTER" prefHeight="30.0" prefWidth="498.0" text="Firma">
+      <font>
+        <Font name="System Bold" size="30.0" />
+      </font>
+    </Label>
+  </children>
+</AnchorPane>

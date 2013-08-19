@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="432.99980000000505" prefWidth="630.0" xmlns:fx="http://javafx.com/fxml" fx:controller="gui.TableGUIController">
+  <children>
+    <Label alignment="CENTER" layoutX="7.0" layoutY="7.0" prefHeight="40.0" prefWidth="623.0" text="Tabelle">
+      <font>
+        <Font name="System Bold" size="30.0" />
+      </font>
+    </Label>
+    <TableView id="" fx:id="fangTabelle" layoutX="16.0" layoutY="82.0" prefHeight="298.0" prefWidth="598.0">
+      <columns>
+        <TableColumn prefWidth="75.0" text="Fang" />
+        <TableColumn prefWidth="75.0" text="Art" />
+        <TableColumn prefWidth="75.0" text="Größe" />
+        <TableColumn prefWidth="75.0" text="Köder" />
+        <TableColumn prefWidth="75.0" text="Ködername" />
+        <TableColumn prefWidth="75.0" text="Firma" />
+        <TableColumn prefWidth="75.0" text="Gewässer" />
+        <TableColumn prefWidth="75.0" text="Zeit" />
+      </columns>
+    </TableView>
+    <Button layoutX="273.0" layoutY="387.0" mnemonicParsing="false" onMouseEntered="#zurueck" prefHeight="32.0" prefWidth="84.0" text="Zurück" />
+  </children>
+</AnchorPane>

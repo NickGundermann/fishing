@@ -6,17 +6,17 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 
-import definition.Art;
+import definition.Koederart;
 
 public class DAOArt {
 	
 	private static SessionFactory sessionFactory = null;
 	
-	public static List<Art> getAllArten(){
+	public static List<Koederart> getAllArten(){
 		return null;
 	}
 	
-	public static void insertArt(Art art){
+	public static void insertArt(Koederart art){
 		Session session = null;
         try 
          {

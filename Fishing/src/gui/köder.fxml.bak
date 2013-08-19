@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml">
+  <children>
+    <TableView layoutX="188.0" layoutY="94.0" prefHeight="213.0" prefWidth="225.0">
+      <columns>
+        <TableColumn prefWidth="75.0" text="Köder" />
+        <TableColumn prefWidth="75.0" text="Ködername" />
+        <TableColumn prefWidth="75.0" text="Firma" />
+      </columns>
+    </TableView>
+    <Label alignment="CENTER" layoutY="-1.0" prefHeight="39.0" prefWidth="600.0" text="Köder">
+      <font>
+        <Font name="System Bold" size="30.0" />
+      </font>
+    </Label>
+    <Button layoutX="300.0" layoutY="324.0" mnemonicParsing="false" onAction="#add" prefHeight="32.0" prefWidth="88.0" text="Hinzufügen" />
+    <Button layoutX="196.0" layoutY="324.0" mnemonicParsing="false" onAction="#zurueck" prefHeight="32.0" prefWidth="88.0" text="Zurück" />
+  </children>
+</AnchorPane>

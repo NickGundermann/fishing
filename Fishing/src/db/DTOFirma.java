@@ -10,21 +10,10 @@ import javax.persistence.Table;
 @Table (name="firmen")
 public class DTOFirma {
 	
-	@Id
-	@GeneratedValue
-	@Column (name="firmenid")
-	private int id;
 	
+	@Id
 	@Column (name="name")
 	private String firmenname;
-
-	public int getId() {
-		return id;
-	}
-
-	public void setId(int id) {
-		this.id = id;
-	}
 
 	public String getFirmenname() {
 		return firmenname;
